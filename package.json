@@ -7,7 +7,7 @@
     "test": "node test.js && zuul --local 9966 -- test.js",
     "ci": "node test.js && zuul -- test.js"
   },
-  "author": "Avag",
+  "author": "NA",
   "license": "MIT",
   "devDependencies": {
     "tape": "^4.0.0",
