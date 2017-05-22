@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node test/test.js",
-    "validate": "babel-tape-runner test/test.js",
+    "test": "babel-tape-runner test/*.js",
+    "validate": "babel-tape-runner test/*.js",
     "ci": "npm run validate"
   },
   "author": "NA",
