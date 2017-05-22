@@ -6,16 +6,19 @@
   "scripts": {
     "test": "babel-tape-runner test/*.js",
     "validate": "babel-tape-runner test/*.js",
-    "ci": "npm run validate"
+    "ci": "npm run validate"	
   },
   "author": "NA",
   "license": "MIT",
   "devDependencies": {
     "babel-core": "^6.24.1",
+    "babel-plugin-istanbul": "^4.1.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "babel-register": "^6.24.1",
     "babel-tape-runner": "^2.0.1",
     "extract-text-webpack-plugin": "^2.1.0",
+    "nyc": "^10.3.2",
     "tape": "^4.6.3",
     "webpack": "^2.5.1",
     "zuul": "^3.1.0"
