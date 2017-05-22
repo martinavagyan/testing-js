@@ -6,7 +6,7 @@
   "scripts": {
     "test": "node test/test.js",
     "validate": "babel-tape-runner test/test.js",
-    "ci": "node test.js"
+    "ci": "validate"
   },
   "author": "NA",
   "license": "MIT",
